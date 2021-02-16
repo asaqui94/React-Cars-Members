@@ -1,0 +1,15 @@
+.move-nav{
+    transform: translate(57vw,0vh);
+}
+
+.move-nav a{
+    color: whitesmoke;
+}
+
+.navbar-color{
+    background-color:rgb(139, 121, 238);
+}
+
+.members-color{
+    color: whitesmoke;
+}
