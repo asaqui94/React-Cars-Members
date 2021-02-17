@@ -1,4 +1,4 @@
-const  token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvd25lciI6IiIsImFjY2Vzc190aW1lIjoiXCIyMDIxLTAyLTE3IDAzOjIxOjAzLjk0NjYzOVwiIn0.QPTnpo0tiqGNDkD61l7FG6U4ayQ9lK2zadNxwSV-Z-c'
+const  token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvd25lciI6IjRiYWUyNzdlM2Q3OWNiNTNkNTI5OGIzNTcyZjM3ZjFhZDY3YTVkZDhiZTQxOTUyMCIsImFjY2Vzc190aW1lIjoiXCIyMDIxLTAyLTE3IDE1OjU4OjUyLjYxNDg5M1wiIn0.YCPGkzuT7BzZA4MEwBRF-COC_nZPM4j_UUrPFwAPKwE'
 export const server_calls = {
     get: async () => {
         const response = await fetch(`/cars`,{
