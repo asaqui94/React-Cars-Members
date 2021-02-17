@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import {Home,CreateCar} from './components';
+import {Home,CreateCar, Cars} from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Navbar, Nav} from 'react-bootstrap';
 import logo from './assets/img/Logo2.png';
@@ -39,7 +39,7 @@ render(
 
       <Nav.Item>
         <Nav.Link>
-          <Link to='/create'>Create a Car</Link>
+          <Link to='/cars'>Display Your Car</Link>
         </Nav.Link>
       </Nav.Item>
     </Nav>
@@ -52,6 +52,10 @@ render(
         </Route>
         <Route path="/create">
           <CreateCar />
+        </Route>
+        
+        <Route path="/cars">
+          <Cars />
         </Route>
       </Switch>
 
